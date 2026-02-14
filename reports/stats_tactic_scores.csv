@@ -1,0 +1,5 @@
+tactic_label,count,mean,median,min,max
+neutral,160218,0.3302,0.3303,0.0,0.999
+propaganda,12251,0.5253,0.4976,0.4399,0.9873
+conspiracy,4850,0.6506,0.6221,0.4399,0.9956
+dehumanization,111,0.4556,0.4565,0.4412,0.5527
