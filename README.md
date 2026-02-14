@@ -1,5 +1,13 @@
 # Youtube Narrative Intelligence Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=flat-square)
+![AI](https://img.shields.io/badge/AI-ZeroShot%20NLI-orange?style=flat-square)
+![GPU](https://img.shields.io/badge/GPU-CUDA%20Supported-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Operational-brightgreen?style=flat-square)
+![Classification](https://img.shields.io/badge/Classification-Open%20Source-lightgrey?style=flat-square)
+
 ## Overview
 
 This project implements an end-to-end data analytics pipeline for monitoring and analysing the Information Environment (IE), with a focus on narrative detection and tactical messaging patterns.
@@ -147,12 +155,12 @@ The system follows a modular Extract–Transform–Load pattern optimized for an
 
 ```mermaid
 graph LR
-    A[YouTube Data Collection] --> B[Preprocessing & Cleaning]
+    A[YouTube Data Collection] --> B[Preprocessing and Cleaning]
     B --> C[Translation to English]
     C --> D[Sentiment Analysis]
-    D --> E[Stance Detection (Zero-shot NLI)]
-    E --> F[Tactics Detection (Zero-shot NLI)]
-    F --> G[Summary & Analytical Reports]
+    D --> E[Stance Detection - Zero Shot NLI]
+    E --> F[Tactics Detection - Zero Shot NLI]
+    F --> G[Summary and Analytical Reports]
 ```
 
 Key characteristics:
