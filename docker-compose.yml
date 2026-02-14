@@ -1,0 +1,39 @@
+# docker-compose.yml
+# -----------------
+# One service "pipeline" you can use to run any stage.
+# Examples:
+#   docker compose run --rm pipeline python 00_gather_data.py
+#   docker compose run --rm pipeline python 10_data_preprocessing.py
+#   docker compose run --rm pipeline python 20_translate_data.py
+#   docker compose run --rm pipeline python 30_sentiment_analysis.py
+#   docker compose run --rm pipeline python 40_stance_analysis.py
+#   docker compose run --rm pipeline python 50_tactics_analysis.py
+#   docker compose run --rm pipeline python 90_report.py
+
+services:
+  pipeline:
+    build: .
+    container_name: yt-narrative-pipeline
+    working_dir: /app
+    environment:
+      # If you use .env locally, docker compose will load it automatically.
+      # You can also set these in an .env file next to docker-compose.yml.
+      - HF_HOME=/app/.cache/huggingface
+      - TRANSFORMERS_CACHE=/app/.cache/huggingface
+      - TOKENIZERS_PARALLELISM=false
+    volumes:
+      - ./:/app
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./.cache:/app/.cache
+    # GPU access (requires NVIDIA Container Toolkit)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # For older docker-compose versions, you may need:
+    # runtime: nvidia
+    tty: true

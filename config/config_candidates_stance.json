@@ -1,0 +1,20 @@
+{
+  "candidate_labels": [
+    "pro_west",
+    "pro_russia",
+    "anti_west",
+    "anti_ukraine",
+    "anti_russia",
+    "peace_call",
+    "neutral"
+  ],
+  "descriptions": {
+    "pro_west": "Support for NATO/EU/US policies and support for Ukraine; endorsing sanctions, military aid, Ukrainian sovereignty; blaming Russia for the invasion",
+    "pro_russia": "Support for Russia, the Kremlin or Putin; justifying the invasion; blaming the West or Ukraine; defending Russian actions",
+    "anti_west": "Hostility toward NATO/EU/US as an enemy or corrupt force; blaming the West for the war or moral decline",
+    "anti_ukraine": "Hostility toward Ukraine or Ukrainians; blaming Ukraine for the war; denying Ukrainian legitimacy or sovereignty",
+    "anti_russia": "Hostility toward Russia or Russians; collective blame; extreme demonization beyond criticism of policy",
+    "peace_call": "Explicit calls for Russia and Ukraine to stop fighting, negotiate, or end the war",
+    "neutral": "Neutral, informational, unrelated, unclear stance, or purely conversational"
+  }
+}

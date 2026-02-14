@@ -1,0 +1,60 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Envs / secrets ---
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials.json
+token.json
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data / artifacts (keep folders, ignore contents) ---
+data/raw/**
+data/youtube_batch/**
+data/processed/**
+reports/**
+
+!data/raw/.gitkeep
+!data/youtube_batch/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+
+# --- Model caches (downloaded weights) ---
+model_*/
+model_*_local/
+*_local/
+**/runs/
+**/wandb/
+
+# HuggingFace cache (if used)
+.cache/
+huggingface/
+HF_HOME/
+TRANSFORMERS_CACHE/
+
+# --- Logs ---
+*.log
+logs/

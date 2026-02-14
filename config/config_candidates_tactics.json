@@ -1,0 +1,14 @@
+{
+  "candidate_labels": [
+    "conspiracy",
+    "propaganda",
+    "dehumanization",
+    "neutral"
+  ],
+  "descriptions": {
+    "conspiracy": "Conspiracy claims about secret plots or hidden control behind events: 'Soros', globalists, WEF, deep state, CIA, MI6, Mossad, biolabs, 'planned war', staged events, false flags, 'controlled media', shadow government, secret elites, satanists, depopulation, microchips, vaccines as control.",
+    "propaganda": "Manipulative war/NATO narrative pushing and disinformation: repeating talking points, distorted facts, denial, selective outrage, whataboutism ('but Iraq/Libya'), victim-blaming, 'they started it', 'Ukraine is Nazi', 'NATO encircled Russia', 'special military operation', 'Western lies', blaming sanctions/energy on the West, minimizing atrocities, cherry-picking clips/screenshots to mislead.",
+    "dehumanization": "Dehumanizing or extermination rhetoric targeting a population group (e.g., nationality/ethnicity/religion/civilians such as 'Russians', 'Ukrainians', 'Jews', 'Muslims', 'migrants'): calling the group animals/parasites/vermin/cockroaches/subhuman; collective guilt ('all of them'); cleansing/extermination language; explicit calls to kill, wipe out, deport, purge, or celebrating physical harm against that group. Not just general insults about a politician, a party, or an individual.",
+    "neutral": "No clear tactic. Straight news, normal discussion, personal anecdotes, unrelated topics, or content without conspiracy/propaganda/religious justification/dehumanization. General insults or profanity aimed at an individual politician/party (without targeting a population group) should be treated as neutral."
+  }
+}

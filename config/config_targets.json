@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "videos_per_channel": 100,
+    "comments_per_video": 500,
+    "min_year_filter": 2024,
+    "daily_quota_limit": 10000
+  },
+  "targets": [
+    {
+      "region": "ROMANIA",
+      "handles": ["@Digi24HD", "@TVRcanaluloficial", "@StirileProTV", "@Antena3CNN", "@euronewsro", "@ganduloficial", "@RomaniaTVOFICIAL", "@realitatea2025", "@RecorderRomania", "@StareaNatiei", "@Zaiafet", "@AtentieCadMere", "@Libertatea", "@HotNewsRo", "@PressOneRo", "@Paginademedia"]
+    },
+    {
+      "region": "MOLDOVA",
+      "handles": ["@TV8Moldova", "@jurnaltv", "@protvchisinau5284", "@privesc.eu.moldova", "@unimedia", "@ZiarulNationalMD"]
+    },
+    {
+      "region": "POLAND",
+      "handles": ["@TVP_Info", "@TVN24", "@polsatnewsplofc", "@premierRP", "@gazeta_wyborcza"]
+    },
+    {
+      "region": "HUNGARY",
+      "handles": ["@Telexponthu", "@HVGonline", "@24.hu", "@Partizan_official", "@indexhu"]
+    },
+    {
+      "region": "BULGARIA",
+      "handles": ["@bTVNewsOfficial", "@NovaNewsOfficial", "@BNT1", "@dabulgaria", "@bulgariaonair", "promenibg"]
+    },
+    {
+      "region": "BALTICS_FINLAND",
+      "handles": ["@Yle_Uutiset", "@lrtplus", "@tv3estonia", "@Helsingin_Sanomat", "@delfi"]
+    },
+    {
+      "region": "UKRAINE",
+      "handles": ["@KyivIndependent", "@United24media", "@DenysDavydov", "@CensorNet", "@EuromaidanPR", "@nexta_tv", "@ConflictIntel"]
+    },
+    {
+      "region": "CZECH_SLOVAKIA",
+      "handles": ["@tvnovaofficial", "@CNNPrimaNEWSCZ", "@TeleviziaMarkiza", "@TVJOJofficial"]
+    },
+    {
+      "region": "SCANDINAVIA_ARCTIC",
+      "handles": ["@NRK", "@svt", "@AftenpostenTV", "@p3essensen"]
+    },
+    {
+      "region": "OSINT_TACTICAL",
+      "handles": ["@KingsandGenerals", "@CasusBelli_Official", "@WardCarroll", "@TheSun", "@WION"]
+    },
+    {
+      "region": "GLOBAL_NATO_NEWS",
+      "handles": ["@DWNews", "@BBCNews", "@FRANCE24", "@Reuters", "@AssociatedPress", "@NATO", "@SkyNews", "@TLDRnewsEU", "@aljazeeraenglish"]
+    }
+  ]
+}
